@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """This is the first resolver"""
+  FirstHello: String!
+  randomNumber: Float!
+
+  """From zero to argument To (default 6)"""
+  randomFromZeroTo(to: Int): Int!
+}
